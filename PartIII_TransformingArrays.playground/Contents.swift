@@ -19,7 +19,6 @@ struct RentalCar {
     let dailyPrice: Float
     let hourlyPrice: Float
 }
-
 let teslaP85 = RentalCar(automatic: true, dailyPrice: 149.99, hourlyPrice: 24.99)
 let mazdaCX5 = RentalCar(automatic: true, dailyPrice:  59.99, hourlyPrice: 11.99)
 let hondaCRX = RentalCar(automatic: false, dailyPrice: 29.99, hourlyPrice:  8.99)
@@ -35,6 +34,7 @@ func isAutomatic(rentalCar: RentalCar) -> Bool {
 // Part III B.
 // When you have corrected the following line it will use filter and the isAutomatic function to return just the automatic cars.
 let automaticOnly = allFleet
+
 
 // Part III C.
 // When you are done implementing this function, testAutomaticCounter will pass.

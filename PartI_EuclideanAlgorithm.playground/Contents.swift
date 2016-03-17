@@ -43,10 +43,10 @@ HINT: Swift won't let you modify a and b, but the pseodocode modifies them, so h
 
 Just uncomment the following two lines to get started.
 */
-
-//func gcd(a: Int, b: Int) -> Int {
-//}
-
+func gcd(2, 4){
+    let b > 0{
+        if temp = 4{
+    return 2
 /*:
 ## Unit Tests
 

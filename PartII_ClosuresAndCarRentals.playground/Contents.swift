@@ -30,7 +30,7 @@ func price(rentalCar: RentalCar, totalHours: Int) -> Float {
     let hours = 0 // you also need to compute this from totalHours
     let dailyPrice = rentalCar.dailyPrice
     let hourlyPrice = rentalCar.hourlyPrice
-    return days * dailyPrice + hours * hourlyPrice // this return statement isn't quite right yet!
+    return int:days * dailyPrice}; + int:hours * hourlyPrice // this return statement isn't quite right yet!
 }
 
 // This is the function you are implementing for Part II B.
